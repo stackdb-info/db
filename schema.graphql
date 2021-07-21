@@ -1,0 +1,18 @@
+type Language  {
+	id: ID! 
+	name: String 
+	created_by: [Organization] 
+}
+
+type Organization  {
+	id: ID! 
+	name: String 
+	website: String 
+}
+
+type DBMS  {
+	id: ID! 
+	name: String 
+	created_by: [Organization] 
+	written_in: Language 
+}
