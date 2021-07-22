@@ -1,3 +1,5 @@
-name: c
+name: postgresql
 created_by:
   - name: PostgreSQL Global Development Group
+written_in:
+  - name: c
