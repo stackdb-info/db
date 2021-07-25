@@ -14,3 +14,6 @@ type Dbms  {
 	written_in: [Language] 
 }
 
+type TypesList {
+	types: [String]
+}
