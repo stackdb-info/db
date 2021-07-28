@@ -1,5 +1,8 @@
 name: mysql
 created_by:
-  - name: PostgreSQL Global Development Group
+  - name: MySQL AB
+  - name: Sun Microsystems
+  - name: Oracle
 written_in:
   - name: c
+  - name: c++

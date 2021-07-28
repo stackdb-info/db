@@ -1,6 +1,6 @@
 type Organization  {
 	name: String! @id
-	website: String 
+	website: String!
 }
 
 type Language  {
