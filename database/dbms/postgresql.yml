@@ -3,3 +3,4 @@ created_by:
   - name: PostgreSQL Global Development Group
 written_in:
   - name: c
+github_organization: postgres

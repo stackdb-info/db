@@ -6,12 +6,16 @@ type Organization  {
 type Language  {
 	name: String! @id
 	created_by: [Organization] 
+	github_repository: String
+	github_organization: String
 }
 
 type Dbms  {
 	name: String! @id
 	created_by: [Organization] 
 	written_in: [Language] 
+	github_repository: String
+	github_organization: String
 }
 
 type TypesList {
