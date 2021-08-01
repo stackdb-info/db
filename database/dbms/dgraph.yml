@@ -1,0 +1,9 @@
+name: Dgraph
+created_by:
+  - name: DGraph Labs, Inc
+release_date: 2015-07
+written_in:
+  - name: go
+github_organization: dgraph-io
+model:
+  - graph
