@@ -13,7 +13,8 @@ type Language  {
 
 type Dbms  {
 	name: String! @id
-	created_by: [Organization] 
+	created_by: [Organization]
+	release_date: DateTime
 	written_in: [Language] 
 	github_repository: String
 	github_organization: String

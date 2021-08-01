@@ -3,6 +3,7 @@ created_by:
   - name: MySQL AB
   - name: Sun Microsystems
   - name: Oracle
+release_date: 1995-03-23
 written_in:
   - name: c
   - name: c++

@@ -1,6 +1,7 @@
 name: postgresql
 created_by:
   - name: PostgreSQL Global Development Group
+release_date: 1996-07-08
 written_in:
   - name: c
 github_organization: postgres
