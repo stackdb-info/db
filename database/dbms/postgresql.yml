@@ -1,10 +1,12 @@
 name: postgresql
+icon: https://avatars.githubusercontent.com/u/177543
+description: The World's Most Advanced Open Source Relational Database
 created_by:
   - name: PostgreSQL Global Development Group
 release_date: 1996-07-08
 written_in:
   - name: c
 github_organization: postgres
-model:
+enum_models:
   - object
   - relational

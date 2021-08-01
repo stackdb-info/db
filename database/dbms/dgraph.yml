@@ -1,9 +1,11 @@
 name: Dgraph
+icon: https://avatars.githubusercontent.com/u/13958706
+description: The Only Native GraphQL Database With A Graph Backend.
 created_by:
   - name: DGraph Labs, Inc
 release_date: 2015-07
 written_in:
   - name: go
 github_organization: dgraph-io
-model:
+enum_models:
   - graph

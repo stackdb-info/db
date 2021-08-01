@@ -1,4 +1,6 @@
 name: mysql
+icon: https://avatars.githubusercontent.com/u/2452804
+description: The world's most popular open source database
 created_by:
   - name: MySQL AB
   - name: Sun Microsystems
@@ -8,5 +10,5 @@ written_in:
   - name: c
   - name: c++
 github_organization: mysql
-model:
+enum_models:
   - relational

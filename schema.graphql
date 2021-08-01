@@ -13,12 +13,20 @@ type Language  {
 
 type Dbms  {
 	name: String! @id
+	icon: String
+	description: String
 	created_by: [Organization]
 	release_date: DateTime
 	written_in: [Language] 
 	github_repository: String
 	github_organization: String
-	model: [String]
+	enum_models: [DbmsModel]
+}
+
+enum DbmsModel {
+	graph
+	object
+	relational
 }
 
 type TypesList {
