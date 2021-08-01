@@ -17,6 +17,7 @@ type Dbms  {
 	written_in: [Language] 
 	github_repository: String
 	github_organization: String
+	model: [String]
 }
 
 type TypesList {

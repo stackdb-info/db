@@ -4,3 +4,6 @@ created_by:
 written_in:
   - name: c
 github_organization: postgres
+model:
+  - object
+  - relational
