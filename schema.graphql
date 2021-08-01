@@ -21,12 +21,28 @@ type Dbms  {
 	github_repository: String
 	github_organization: String
 	enum_models: [DbmsModel]
+	enum_query_interfaces: [QueryInterface]
+	enum_supported_os: [OS]
 }
 
 enum DbmsModel {
 	graph
 	object
 	relational
+}
+
+enum QueryInterface {
+	SQL
+	GraphQL
+	DQL
+}
+
+enum OS {
+	Windows
+	macOS
+	Linux
+	iOS
+	Android
 }
 
 type TypesList {

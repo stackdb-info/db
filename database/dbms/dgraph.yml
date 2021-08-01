@@ -9,3 +9,10 @@ written_in:
 github_organization: dgraph-io
 enum_models:
   - graph
+enum_supported_os:
+  - Windows
+  - macOS
+  - Linux
+enum_query_interfaces:
+  - GraphQL
+  - DQL

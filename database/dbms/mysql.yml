@@ -12,3 +12,9 @@ written_in:
 github_organization: mysql
 enum_models:
   - relational
+enum_supported_os:
+  - Windows
+  - macOS
+  - Linux
+enum_query_interfaces:
+  - SQL
