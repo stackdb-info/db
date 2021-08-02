@@ -59,6 +59,7 @@ type Dbms  {
 	created_by: [Organization]
 	release_date: DateTime
 	written_in: [Language] 
+	license: License
 	github_repository: String
 	github_organization: String
 	enum_models: [DbmsModel]

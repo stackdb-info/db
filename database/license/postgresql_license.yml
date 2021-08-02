@@ -1,4 +1,5 @@
-name: PostgreSQL License
+name: postgresql_license
+complete_name: PostgreSQL License
 enum_type: permissive
 description: PostgreSQL is released under the PostgreSQL License, a liberal Open Source license, similar to the BSD or MIT licenses.
 enum_permissions:

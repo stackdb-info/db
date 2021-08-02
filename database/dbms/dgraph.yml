@@ -6,6 +6,8 @@ created_by:
 release_date: 2015-07
 written_in:
   - name: go
+license:
+  name: apache2
 github_organization: dgraph-io
 enum_models:
   - graph

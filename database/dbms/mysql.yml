@@ -9,6 +9,8 @@ release_date: 1995-03-23
 written_in:
   - name: c
   - name: c++
+license:
+  name: gpl2
 github_organization: mysql
 enum_models:
   - relational

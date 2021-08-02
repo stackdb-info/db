@@ -6,6 +6,8 @@ created_by:
 release_date: 1996-07-08
 written_in:
   - name: c
+license:
+  name: postgresql_license
 github_organization: postgres
 enum_models:
   - object
