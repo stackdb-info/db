@@ -1,0 +1,14 @@
+name: unlicense
+complete_name: Unlicense
+enum_type: permissive
+description: A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code.
+enum_permissions:
+  - commercial_use
+  - distribution
+  - modification
+  - private_use
+enum_limitations:
+  - liability
+  - warrantly
+credits:
+  - https://choosealicense.com/licenses/

@@ -1,0 +1,16 @@
+name: PostgreSQL License
+enum_type: permissive
+description: PostgreSQL is released under the PostgreSQL License, a liberal Open Source license, similar to the BSD or MIT licenses.
+enum_permissions:
+  - commercial_use
+  - distribution
+  - modification
+  - private_use
+enum_conditions:
+  - license_and_copyright_notice
+enum_limitations:
+  - liability
+  - warrantly
+credits:
+  - https://www.postgresql.org/about/licence/
+  - https://tldrlegal.com/license/postgresql-license-(postgresql)

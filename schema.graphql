@@ -11,6 +11,47 @@ type Language  {
 	github_organization: String
 }
 
+type License {
+	name: String! @id
+	complete_name: String
+	enum_type: LicenseType
+	description: String
+	enum_permissions: [LicensePermissions]
+	enum_conditions: [LicenseConditions]
+	enum_limitations: [LicenseLimitations]
+	credits: [String]
+}
+
+enum LicenseType {
+	copyleft
+	permissive
+	copyright
+}
+
+enum LicensePermissions {
+	commercial_use
+	distribution
+	modification
+	patent_use
+	private_use
+}
+
+enum LicenseConditions {
+	disclose_source
+	license_and_copyright_notice
+	network_use_is_distribution
+	same_license
+	same_license_library
+	same_license_file
+	state_changes
+}
+
+enum LicenseLimitations {
+	liability
+	warrantly
+	trademark_use
+}
+
 type Dbms  {
 	name: String! @id
 	icon: String

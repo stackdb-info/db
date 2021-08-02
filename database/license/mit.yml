@@ -1,0 +1,17 @@
+name: mit
+complete_name: Mit License
+enum_type: permissive
+description: A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+enum_permissions:
+  - commercial_use
+  - distribution
+  - modification
+  - private_use
+enum_conditions:
+  - license_and_copyright_notice
+  - state_changes
+enum_limitations:
+  - liability
+  - warrantly
+credits:
+  - https://choosealicense.com/licenses/

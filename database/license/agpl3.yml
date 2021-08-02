@@ -1,0 +1,21 @@
+name: agpl3
+complete_name: GNU Affero General Public License v3.0
+description: Permissions of this strongest copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available.
+enum_type: copyleft
+enum_permissions:
+  - commercial_use
+  - distribution
+  - modification
+  - patent_use
+  - private_use
+enum_conditions:
+  - disclose_source
+  - license_and_copyright_notice
+  - network_use_is_distribution
+  - same_license
+  - state_changes
+enum_limitations:
+  - liability
+  - warrantly
+credits:
+  - https://choosealicense.com/licenses/

@@ -1,0 +1,20 @@
+name: gpl3
+complete_name: GNU General Public License v3.0
+description: Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
+enum_type: copyleft
+enum_permissions:
+  - commercial_use
+  - distribution
+  - modification
+  - patent_use
+  - private_use
+enum_conditions:
+  - disclose_source
+  - license_and_copyright_notice
+  - same_license
+  - state_changes
+enum_limitations:
+  - liability
+  - warrantly
+credits:
+  - https://choosealicense.com/licenses/
